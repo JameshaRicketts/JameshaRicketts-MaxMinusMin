@@ -1,4 +1,5 @@
 
+//import java.util.Collections;
 import java.util.List;
 
 public class MaxMinusMin {
@@ -19,6 +20,8 @@ public class MaxMinusMin {
                 min = number;
             }
         }
+        //int min = Collections.min(nums);
+        //int max = Collections.max(nums);
         return max-min;
     }
 }
